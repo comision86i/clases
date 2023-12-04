@@ -57,11 +57,12 @@ function menorValor(num1, num2, num3){
     }
 }
 
-let valor1 = parseInt(prompt('Ingrese el primer valor: '));
+/* let valor1 = parseInt(prompt('Ingrese el primer valor: '));
 let valor2 = parseInt(prompt('Ingrese el segundo valor: '));
 let valor3 = parseInt(prompt('Ingrese el tercer valor: '));
 menorValor(valor1, valor2, valor3);
-
 document.write('<br>');
-menorValor(5, 35, 6);
+menorValor(5, 35, 6); */
 
+let menor = menorValor(1, 2, 3);
+document.write(menor);
